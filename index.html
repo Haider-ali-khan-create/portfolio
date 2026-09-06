@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Haider Ali — Aspiring Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">haider<span>.</span>ali</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero wrap">
+  <div class="terminal-line"><span class="prompt">guest@network</span>:~$ whoami</div>
+  <h1 id="typedName"></h1>
+  <div class="hero-role">Aspiring Software Developer</div>
+  <p class="hero-desc">Building my foundation in HTML, CSS, JavaScript, Python, and Git through hands-on projects — including live web apps deployed on Vercel. Exploring AI and cybersecurity while I go, and always up for learning something new.</p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View projects</a>
+    <a href="https://www.linkedin.com/in/haiderali-1b5a5840a" target="_blank" rel="noopener" class="btn btn-ghost">Get in touch</a>
+  </div>
+  <div class="hero-stats">
+    <div><div class="stat-num">4+</div><div class="stat-label">languages learned</div></div>
+    <div><div class="stat-num">2</div><div class="stat-label">projects shipped</div></div>
+    <div><div class="stat-num">2030</div><div class="stat-label">expected graduation</div></div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="wrap">
+  <span class="eyebrow-num reveal">About</span>
+  <h2 class="section-title reveal">Still early in the journey, but building real things along the way.</h2>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a Computer Science student passionate about <strong>web development</strong>, <strong>AI</strong>, and <strong>cybersecurity</strong> — focused on understanding how systems are built, secured, and scaled, not just how to make them work.</p>
+      <p>I'm currently building my foundation in HTML, CSS, JavaScript, Git, and GitHub through hands-on projects, including deploying live web apps on Vercel. I learn best by debugging real problems and experimenting until something clicks.</p>
+      <p>Long-term, I'm working toward expertise in <strong>AI</strong> and <strong>security engineering</strong>. Always open to collaborating, learning, and connecting with people in tech.</p>
+    </div>
+    <div class="fact-list reveal">
+      <div class="fact-row"><span class="fact-key">location</span><span class="fact-val">Prayagraj, India</span></div>
+      <div class="fact-row"><span class="fact-key">focus</span><span class="fact-val">Web, AI, Security</span></div>
+      <div class="fact-row"><span class="fact-key">education</span><span class="fact-val">B.Tech CS, in progress</span></div>
+      <div class="fact-row"><span class="fact-key">currently</span><span class="fact-val">Open to opportunities</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="wrap">
+  <span class="eyebrow-num reveal">Skills</span>
+  <h2 class="section-title reveal">Tools I reach for without thinking twice.</h2>
+  <div class="skills-groups">
+    <div class="skill-group reveal">
+      <h3>Programming &amp; Web</h3>
+      <div class="tag-row">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">C</span><span class="tag">MySQL</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Systems &amp; Tools</h3>
+      <div class="tag-row">
+        <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Networking</span><span class="tag">DBMS</span><span class="tag">Vercel</span>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <h3>Currently Exploring</h3>
+      <div class="tag-row">
+        <span class="tag">Claude Code</span><span class="tag">Claude Skills</span><span class="tag">Ethical Hacking</span><span class="tag">AI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects" class="wrap">
+  <span class="eyebrow-num reveal">Projects</span>
+  <h2 class="section-title reveal">A few things I've built and would happily talk about for an hour.</h2>
+  <div class="project-list">
+
+    <div class="project-card reveal">
+      <div>
+        <div class="project-head">
+          <span class="project-name">Weather Forecast Web App</span>
+          <span class="project-year">2026</span>
+        </div>
+        <p class="project-desc">A live weather forecast app pulling real-time data from the OpenWeatherMap API. Planned the core features first, then built the interface and logic step by step, testing each part before moving on.</p>
+        <div class="project-stack">
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">OpenWeatherMap API</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/Haider-ali-khan-create" target="_blank" rel="noopener">Source →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div>
+        <div class="project-head">
+          <span class="project-name">Billing &amp; Invoice Management System</span>
+          <span class="project-year">2026</span>
+        </div>
+        <p class="project-desc">A billing and invoicing tool that reads and writes structured records to CSV, built with a focus on clean logic and reliable data handling from the ground up.</p>
+        <div class="project-stack">
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">CSV</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/Haider-ali-khan-create" target="_blank" rel="noopener">Source →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section id="experience" class="wrap">
+  <span class="eyebrow-num reveal">Experience &amp; Education</span>
+  <h2 class="section-title reveal">Where I've been, and what I was actually doing there.</h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-period">April 2026 — Present</div>
+      <div class="tl-role">Private Tutor</div>
+      <div class="tl-org">Prayagraj, India</div>
+      <p class="tl-desc">Teach all core subjects to a Class 6 student, adapting explanations to build foundational understanding. Also teach Physics, Chemistry, and Mathematics (PCM) to a Class 10 student, preparing them for board-level exams.</p>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-period">August 2026 — August 2030</div>
+      <div class="tl-role">Bachelor of Technology, Computer Science</div>
+      <div class="tl-org">United Institute of Technology</div>
+      <p class="tl-desc">Currently pursuing a B.Tech in Computer Science.</p>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-period">April 2024 — April 2025</div>
+      <div class="tl-role">12th Grade — Physics, Chemistry, Mathematics &amp; Computer Science</div>
+      <div class="tl-org">VBPS, Prayagraj — 80.2%</div>
+      <p class="tl-desc">Identified and corrected an error in a binary search algorithm during a Class 11 programming lesson, demonstrating strong analytical and debugging skills.</p>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="tl-period">April 2022 — April 2023</div>
+      <div class="tl-role">10th Grade</div>
+      <div class="tl-org">VBPS, Prayagraj — 82%</div>
+      <p class="tl-desc">Completed secondary education with a general curriculum.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section id="certifications" class="wrap">
+  <span class="eyebrow-num reveal">Certifications</span>
+  <h2 class="section-title reveal">Credentials I keep current.</h2>
+  <div class="cert-grid">
+    <div class="cert-card reveal">
+      <div class="cert-name">Claude Academy: Claude 101</div>
+      <div class="cert-org">Anthropic</div>
+      <div class="cert-year">2026</div>
+    </div>
+    <div class="cert-card reveal">
+      <div class="cert-name">Ethical Hacking Bootcamp</div>
+      <div class="cert-org">Physics Wallah</div>
+      <div class="cert-year">July 2026</div>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  © 2026 Haider Ali — built from scratch, no template.
+  <span style="margin:0 10px;color:var(--text-dimmer);">·</span>
+  <a href="https://github.com/Haider-ali-khan-create" target="_blank" rel="noopener" style="color:var(--text-dim);">GitHub</a>
+  <span style="margin:0 10px;color:var(--text-dimmer);">·</span>
+  <a href="https://www.linkedin.com/in/haiderali-1b5a5840a" target="_blank" rel="noopener" style="color:var(--text-dim);">LinkedIn</a>
+  <span style="margin:0 10px;color:var(--text-dimmer);">·</span>
+  <a href="mailto:haider.hak2468@gmail.com" style="color:var(--text-dim);">Email</a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
